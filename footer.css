@@ -1,0 +1,55 @@
+/* footer  */
+
+.garis {
+    position: relative;
+    height: 3px;
+}
+
+.garis::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 33.33%; /* Bagian pertama warna */
+    height: 100%;
+    background-color: rgba(0,148,222,255); /* Warna pertama */
+}
+
+.garis::after {
+    content: "";
+    position: absolute;
+    left: 33.33%; /* Bagian kedua warna */
+    top: 0;
+    width: 33.33%;
+    height: 100%;
+    background-color: rgba(104,186,42,255); /* Warna kedua */
+}
+
+.garis {
+    background-color: rgba(236,138,20,255); /* Warna ketiga */
+}
+
+footer {
+    height: auto;
+    width: 100vw;
+    color: black;
+}
+
+.footerr {
+    padding-bottom: 20px;
+    align-items: center;
+    text-align:center;
+    /* background-color: grey; */
+}
+
+.bawah {
+    font-weight: 100;
+    font-size: 12px;
+}
+
+.lembaga {
+    padding-top: 15px; 
+    font-size: 12px;
+    font-weight:bold;
+    color: black; 
+}

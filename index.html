@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="swiper-bundle.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap">
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css">
+
+    <title>Kota Bekasi dalam Angka</title>
+</head>
+
+<body>
+    <div class="header">
+        <nav>
+            <a class="logo" href="index.html">
+                <img src="foto/logoo.png" alt="logo BPS" width="300">
+            </a>
+
+            <div class="nav-links" id="navLinks" onclick="clickMenu();">
+                <i class="fa fa-times" aria-hidden="true" onclick="hideMenu()"></i>
+                <ul class="menu-menu">
+                    <!-- <li><a href="#header" onclick="clickMenu();">Beranda</a></li> -->
+                    <li><a href="#tentang" onclick="clickMenu();">Tentang</a></li>
+                    <li><a href="#katalog" onclick="clickMenu();">Katalog</a></li>
+                    <!-- <li><a href="loginForm.php">LOGIN</a></li> -->
+                </ul>
+            </div>
+            <i class="fa fa-bars" aria-hidden="true" onclick="showMenu()"></i>
+        </nav>
+
+        <div class="text-box">
+            <h1>Kota Bekasi</h1>
+            <h2>dalam Angka</h2>
+        </div>
+
+        <div class="listData">
+            <div class="slide-containerData swiper">
+                <div class="slide-contentData">
+                    <div class="card-wrapperData swiper-wrapper">
+                        <div class="cardData swiper-slide">
+                            <div class="image-contentData">
+
+                                <div class="card-imageData">
+                                    <a href="p2_iklimgeografi.php">
+                                        <img src="foto/geografi.png" alt="...." class="card-imgData">
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="card-contentData">
+                                <a href="p2_iklimgeografi.php">Geografi dan Iklim</a>
+                            </div>
+                        </div>
+                        
+                        <div class="cardData swiper-slide">
+                            <div class="image-contentData">
+
+                                <div class="card-imageData">
+                                    <a href="">
+                                        <img src="foto/pemerintahan.png" alt="...." class="card-imgData">
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="card-contentData">
+                                <a href="">Pemerintahan</a>
+                            </div>
+                        </div>
+
+                        <div class="cardData swiper-slide">
+                            <div class="image-contentData">
+
+                                <div class="card-imageData">
+                                    <a href="p2_penduduk.php">
+                                        <img src="foto/penduduk.png" alt="...." class="card-imgData">
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="card-contentData">
+                                <a href="p2_penduduk.php">Penduduk dan Ketenagakerjaan</a>
+                            </div>
+                        </div>
+
+                        <div class="cardData swiper-slide">
+                            <div class="image-contentData">
+
+                                <div class="card-imageData">
+                                    <a href="">
+                                        <img src="foto/sosial.png" alt="...." class="card-imgData">
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="card-contentData">
+                                <a href="">Sosial dan Kesejahteraan Rakyat</a>
+                            </div>
+                        </div>
+
+                        <div class="cardData swiper-slide">
+                            <div class="image-contentData">
+
+                                <div class="card-imageData">
+                                    <a href="">
+                                        <img src="foto/hortikultura.png" alt="...." class="card-imgData">
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="card-contentData">
+                                <a href="">Hortikultura dan Perkebunan</a>
+                            </div>
+                        </div>
+
+                        <div class="cardData swiper-slide">
+                            <div class="image-contentData">
+
+                                <div class="card-imageData">
+                                    <a href="">
+                                        <img src="foto/industri.png" alt="...." class="card-imgData">
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="card-contentData">
+                                <a href="">Industri, Pertambangan, dan Energi</a>
+                            </div>
+                        </div>
+
+                        <div class="cardData swiper-slide">
+                            <div class="image-contentData">
+
+                                <div class="card-imageData">
+                                    <a href="">
+                                        <img src="foto/pariwisata.png" alt="...." class="card-imgData">
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="card-contentData">
+                                <a href="">Pariwisata</a>
+                            </div>
+                        </div>
+
+                        <div class="cardData swiper-slide">
+                            <div class="image-contentData">
+
+                                <div class="card-imageData">
+                                    <a href="">
+                                        <img src="foto/transportasi.png" alt="...." class="card-imgData">
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="card-contentData">
+                                <a href="">Transportasi dan Komunikasi</a>
+                            </div>
+                        </div>
+
+                        <div class="cardData swiper-slide">
+                            <div class="image-contentData">
+
+                                <div class="card-imageData">
+                                    <a href="">
+                                        <img src="foto/perbankan.png" alt="...." class="card-imgData">
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="card-contentData">
+                                <a href="">Perbankan, Koperasi, dan Harga</a>
+                            </div>
+                        </div>
+
+                        <div class="cardData swiper-slide">
+                            <div class="image-contentData">
+
+                                <div class="card-imageData">
+                                    <a href="">
+                                        <img src="foto/pengeluaran.png" alt="...." class="card-imgData">
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="card-contentData">
+                                <a href="">Pengeluaran Penduduk</a>
+                            </div>
+                        </div>
+
+                        <div class="cardData swiper-slide">
+                            <div class="image-contentData">
+
+                                <div class="card-imageData">
+                                    <a href="">
+                                        <img src="foto/perdagangan.png" alt="...." class="card-imgData">
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="card-contentData">
+                                <a href="">Perdagangan</a>
+                            </div>
+                        </div>
+
+                        <div class="cardData swiper-slide">
+                            <div class="image-contentData">
+
+                                <div class="card-imageData">
+                                    <a href="">
+                                        <img src="foto/neraca.png" alt="...." class="card-imgData">
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="card-contentData">
+                                <a href="">Sistem Neraca Regional</a>
+                            </div>
+                        </div>
+
+                        <div class="cardData swiper-slide">
+                            <div class="image-contentData">
+
+                                <div class="card-imageData">
+                                    <a href="">
+                                        <img src="foto/perbandingan.png" alt="...." class="card-imgData">
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="card-contentData">
+                                <a href="">Perbandingan Antar Kabupaten</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </div>
+
+
+    <section class="tentang" id="tentang">
+
+        <div class="row">
+            <div class="tentang-col">
+                <h2>TENTANG</h2>
+                <h1>Kota Bekasi dalam Angka</h1>
+                <p> Setiap tahunnya, BPS Kota Bekasi merilis seri publikasi yang menyajikan beragam jenis data yang bersumber dari BPS dan institusi lain. 
+                    Publikasi ini memuat gambaran umum tentang keadaan geografi dan iklim, pemerintahan, serta perkembangan kondisi sosial demografi dan 
+                    perekonomian di Kota Bekasi.</p>
+                <p> Untuk memudahkan pemahaman dan pemanfaatan data, disertakan juga penjelasan teknis dari setiap jenis statistik yang disajikan. 
+                    Seiring dengan meningkatnya kebutuhan konsumen data, publikasi Kota Bekasi Dalam Angka akan terus mengalami penyempurnaan baik 
+                    struktur maupun muatannya. </p>
+                <a href="">Selengkapnya</a>    
+            </div>
+
+            <div class="tentang-col">
+                <img src="foto/tentang kotbek.jpg">
+            </div>
+        </div>
+    </section>
+
+    <section class="katalog" id="katalog">
+        <h2>KATALOG PUBLIKASI</h2>
+
+        <div class="listPublikasi">
+            <div class="slide-container swiper">
+                <div class="slide-content">
+                    <div class="card-wrapper swiper-wrapper">
+                        <div class="card swiper-slide">
+                            <div class="image-content">
+
+                                <div class="card-image">
+                                    <a href="https://bekasikota.bps.go.id/publication/2023/02/28/2520cc9b8d120e52a9697de2/kota-bekasi-dalam-angka-2023.html"
+                                        target="_blank" class="linkGambar">
+                                        <img src="foto/2023.png" alt="...." class="card-img">
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="card-content">
+                                <a href="https://bekasikota.bps.go.id/publication/2023/02/28/2520cc9b8d120e52a9697de2/kota-bekasi-dalam-angka-2023.html"
+                                    target="_blank" >Kota Bekasi dalam Angka Tahun 2023</a>
+                            </div>
+                        </div>
+
+                        <div class="card swiper-slide">
+                            <div class="image-content">
+
+                                <div class="card-image">
+                                    <a href="https://bekasikota.bps.go.id/publication/2022/02/25/bb5e0280d7ba865191acbdb2/kota-bekasi-dalam-angka-2022.html"
+                                        target="_blank" class="linkGambar">
+                                        <img src="foto/2022.png" alt="...." class="card-img">
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="card-content">
+                                <a href="https://bekasikota.bps.go.id/publication/2022/02/25/bb5e0280d7ba865191acbdb2/kota-bekasi-dalam-angka-2022.html"
+                                    target="_blank">Kota Bekasi dalam Angka Tahun 2022</a>
+                            </div>
+                        </div>
+
+                        <div class="card swiper-slide">
+                            <div class="image-content">
+
+                                <div class="card-image">
+                                    <a href="https://bekasikota.bps.go.id/publication/2021/02/26/d93e792ac92f8b00b513ea2b/kota-bekasi-dalam-angka-2021.html"
+                                        target="_blank" class="linkGambar">
+                                        <img src="foto/tentang kotbek.jpg" alt="...." class="card-img">
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="card-content">
+                                <a href="https://bekasikota.bps.go.id/publication/2021/02/26/d93e792ac92f8b00b513ea2b/kota-bekasi-dalam-angka-2021.html"
+                                    target="_blank">Kota Bekasi dalam Angka Tahun 2021</a>
+                            </div>
+                        </div>
+
+                        <div class="card swiper-slide">
+                            <div class="image-content">
+
+                                <div class="card-image">
+                                    <a href="https://bekasikota.bps.go.id/publication/2020/04/28/b3c9a8f66a47b925b30b81c8/kota-bekasi-dalam-angka-2020.html"
+                                        target="_blank" class="linkGambar">
+                                        <img src="foto/2020.png" alt="...." class="card-img">
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="card-content">
+                                <a href="https://bekasikota.bps.go.id/publication/2020/04/28/b3c9a8f66a47b925b30b81c8/kota-bekasi-dalam-angka-2020.html"
+                                    target="_blank">Kota Bekasi dalam Angka Tahun 2020</a>
+                            </div>
+                        </div>
+
+                        <div class="card swiper-slide">
+                            <div class="image-content">
+
+                                <div class="card-image">
+                                    <a href="https://bekasikota.bps.go.id/publication/2019/08/16/6e75b57fc1e3feca8c988be6/kota-bekasi-dalam-angka-2019.html"
+                                        target="_blank" class="linkGambar">
+                                        <img src="foto/2019.png" alt="...." class="card-img">
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="card-content">
+                                <a href="https://bekasikota.bps.go.id/publication/2019/08/16/6e75b57fc1e3feca8c988be6/kota-bekasi-dalam-angka-2019.html"
+                                    target="_blank">Kota Bekasi dalam Angka Tahun 2019</a>
+                            </div>
+                        </div>
+
+                        <div class="card swiper-slide">
+                            <div class="image-content">
+
+                                <div class="card-image">
+                                    <a href="https://bekasikota.bps.go.id/publication/2018/08/16/afa134842a8e09b9646c6091/kota-bekasi-dalam-angka-2018.html"
+                                        target="_blank" class="linkGambar">
+                                        <img src="foto/2018.png" alt="...." class="card-img">
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="card-content">
+                                <a href="https://bekasikota.bps.go.id/publication/2018/08/16/afa134842a8e09b9646c6091/kota-bekasi-dalam-angka-2018.html"
+                                    target="_blank">Kota Bekasi dalam Angka Tahun 2018</a>
+                            </div>
+                        </div>
+
+                        <div class="card swiper-slide">
+                            <div class="image-content">
+
+                                <div class="card-image">
+                                    <a href="https://bekasikota.bps.go.id/publication/2017/08/13/bf813dc98d184a3ba939d75a/kota-bekasi-dalam-angka-2017.html"
+                                        target="_blank" class="linkGambar">
+                                        <img src="foto/2017.png" alt="...." class="card-img">
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="card-content">
+                                <a href="https://bekasikota.bps.go.id/publication/2017/08/13/bf813dc98d184a3ba939d75a/kota-bekasi-dalam-angka-2017.html"
+                                    target="_blank">Kota Bekasi dalam Angka Tahun 2017</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footerr">
+
+            <p class="garis"></p>
+                <p class ="lembaga">Badan Pusat Statistik Kota Bekasi (Statistics Bekasi City)</p>
+            
+            <div class="bawah">
+                <p>Jl. Rawa Tembaga I, No. 6, Bekasi 17141 , Telp: 021-88953987, 8842757 Fax: 021-88953987 Email:
+                    bps3275@bps.go.id</p>
+                <p>Hak Cipta © 2023 Badan Pusat Statistik</p>
+                <p>Semua Hak Dilindungi</p>
+            </div>
+        </div>
+
+    </footer>
+
+    <script src="swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

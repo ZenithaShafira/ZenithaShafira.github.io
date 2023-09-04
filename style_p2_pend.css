@@ -1,0 +1,220 @@
+*{
+    margin:0;
+    padding:0;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+}
+
+.header {
+    height: 50vh;
+    width: auto;
+    background-image: linear-gradient(rgba(20, 25, 46, 0.671),rgba(20, 25, 46, 0.671)),url(foto/header_p2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+nav {
+    display: flex;
+    padding-top: 2%;
+    padding-right: 6%;
+    padding-left: 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links{
+    flex:1;
+    text-align: right;
+}
+
+.nav-links ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+
+.nav-links ul li a {
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.nav-links ul li::after {
+    content:'';
+    transition: 0.5s;
+    width: 0%;
+    height: 2px;
+    background: rgba(104,186,42,255);
+    display: block;
+    margin: auto;
+}
+
+.nav-links ul li:hover::after {
+    width: 100%;
+}
+
+nav .fa {
+    display: none;
+}
+
+.text-box{
+    display: flex;
+    align-items: center;
+    margin-left: 20%;
+}
+
+.gambarTextBox {
+    /* background-color: aqua; */
+    padding-top: 0.64%;
+    /* margin-left: 20%; */
+}
+
+.gambarTextBox img {
+    padding-left: 20%;
+    height: 35vh;
+}
+
+.text-box h1 {
+    padding-left: 8%;
+    color: white;
+    font-size: 50px;
+}
+
+/* penduduk */
+
+.row {
+    display: flex;
+}
+
+.penduduk {
+    width: 100%;
+    height: 50vh;
+    margin: auto;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    background-color: #A4C9CA;
+}
+
+.penduduk-col {
+    flex-basis: 100%;
+    padding: 0px 0px;
+}
+
+.penduduk-col img {
+    width: 577px;
+    height: auto;
+    /* transition: 0.3s; */
+    padding-left: 15%;
+}
+
+.penduduk-col h1{
+    padding-top: 10%;
+    margin: 0;
+    padding-left: 10%;
+    font-size: 40px;
+}
+
+.penduduk-col p{
+    padding-top: 10px;
+    margin: 0;
+    text-align: justify;
+    font-weight: 100;
+    padding-left: 10%;
+    
+}
+
+.penduduk-col a {
+    display: inline-block;
+    border: 1px solid black;
+    color: black;
+    padding: 10px 10px 10px 10px;
+    margin-top: 3%;
+    margin-left: 10%;
+    position: relative;
+    text-decoration: none;
+}
+
+.penduduk-col a:hover {
+    background-color: #ECBE4E;
+}
+
+/* ketenagakerjaan */
+
+.ketenagakerjaan {
+    width: 100%;
+    height: 50vh;
+    margin: auto;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    background-color: #ECBE4E;
+}
+
+.tng-col {
+    flex-basis: 100%;
+    padding: 0px 0px;
+}
+
+.tng-col img {
+    width: 87%;
+    height: auto;
+}
+
+.tng-col h1{
+    padding-top: 12%;
+    margin: 0;
+    margin-right: 10%;
+    font-size: 40px;
+}
+
+.tng-col p{
+    padding-top: 10px;
+    margin: 0;
+    text-align: justify;
+    font-weight: 100;
+    padding-right: 10%;
+}
+
+.tng-col a {
+    display: inline-block;
+    border: 1px solid black;
+    color: black;
+    padding: 10px 10px 10px 10px;
+    margin-top: 3%;
+    margin-left: 0%;
+    position: relative;
+    text-decoration: none;
+}
+
+.tng-col a:hover {
+    background-color: #A4C9CA;
+}
+
+@media(max-width: 700px){
+    nav{
+        padding-left: 1%;
+    }
+    
+    .gambarTextBox img {
+        display: none;
+    }
+
+    .text-box {
+        margin-left: 10%;
+        margin-top: 20%;
+    }
+    .text-box h1{
+        padding-left: 0%;
+        font-size: 40px;
+    }
+
+    /* .penduduk-col img {
+        transform: scale(0.8);
+    } */
+}
